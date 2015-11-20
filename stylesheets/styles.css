@@ -1,0 +1,45 @@
+﻿body{
+	font-size: 16px;
+}
+div.search{
+	margin:46px auto;
+	width: 80%;
+}
+
+div.search input{
+	width: 98%;
+	padding: 10px 1%;
+	border: #7995EF 4px solid;
+	border-radius: 4px;
+	font-size: 24px;
+}
+
+ul{
+	margin: 66px auto;
+	width: 83%;
+}
+ul li.list{
+	list-style: none;
+	line-height: 37px;
+	margin-top: 30px;
+	border-bottom: dashed 1px rgb(150,150,150);
+}
+
+ul li div.title{
+	font-size: 25px;
+	width: 78%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	color: rgb(30,30,30);
+}
+ul li span{
+	color: red;
+}
+ul li div.createDate{
+	text-align: right;
+	font-size: 19px;
+	font-style: oblique;
+	color: rgb(190,190,190);
+	padding: 0 2%;
+}

@@ -3,7 +3,7 @@
         var currentDate = date.getDate() < 10 ? "0" + date.getDate() : date.getDate();
         return date.getFullYear() + "-" + month + "-" + currentDate;
  };
- 
+
  function convertDate (createDate) {
 	var match;
 	if (!(match = createDate.match(/\d+/))) {
@@ -15,7 +15,7 @@
 }
 
 function setMarks(){
-	$("#searchkey").bind('input propertychange',function () {
+	$("#searchkey").on('input propertychange',function () {
 		$.ajax({
 			url:"bookmarks.json",
 			type:"get",
